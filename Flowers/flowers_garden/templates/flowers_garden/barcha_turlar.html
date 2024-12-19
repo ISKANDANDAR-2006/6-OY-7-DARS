@@ -1,0 +1,9 @@
+{% extends 'flowers/base.html' %}
+{% block content %}
+<h2>Barcha Turlar</h2>
+<ul>
+    {% for tur in turlar %}
+    <li>{{ tur.nom }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
